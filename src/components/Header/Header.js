@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 
-const Header = () => {
+const Header = (props) => {
 
-    const [count,setCount] = useState(0)
 
 
     return (
