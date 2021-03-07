@@ -17,7 +17,7 @@ function App() {
   return (
     <CategoryContext.Provider value={count} className="App">
     <p>{count}</p>
-        <Header count={count} setCount={setCount}/>
+        <Header  setCount={setCount}/>
         <Home />
         <Shipment/>
     </CategoryContext.Provider>
