@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div className="App">
+    <p>{count}</p>
         <Header count={count} setCount={setCount}/>
-        <Home/>
+        <Home count={count}/>
         <Shipment/>
     </div>
   );

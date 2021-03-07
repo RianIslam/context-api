@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Home = (props) => {
+
+    const {count} = props;
     return (
         <div>
-            <h1>this is home</h1>
+            <h1>this is home {count}</h1>
         </div>
     )
 }

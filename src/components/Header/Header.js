@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 const Header = (props) => {
 
+    const  {count,setCount} = props;
 
 
     return (
